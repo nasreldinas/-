@@ -1,0 +1,5 @@
+ A = 15
+B = 8
+C = 3
+print("Max value: ", max(A, B, C))
+print("Min value: ", min(A, B, C))
