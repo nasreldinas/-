@@ -1,0 +1,21 @@
+import math
+
+A = 5.0
+H = 2.0
+R = 3.0
+M = 10
+.0
+CV = A ** 3
+CYV = math.pi * R ** 2 * H
+if CV > M:
+    print("possibly")
+else:
+    print("unpossibly")
+if CYV > M:
+    print("possibly")
+else:
+    print("unpossibly")
+if M < CYV < CV:
+    print("possibly")
+else:
+    print("unpossibly")
