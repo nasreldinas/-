@@ -1,0 +1,11 @@
+A = 5.0
+B = 2.0
+C = 4.0
+M = 10.0
+K = 3.0
+S1 = 2 * C * (A + B)
+S2 = M * K
+if S1 <= S2:
+    print("placed in the door")
+else:
+    print("can't fit the door")
