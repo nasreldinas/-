@@ -1,4 +1,0 @@
-A = "2018-10-04"
-date = A.split("-")
-print(date)
-print(date[2] + "/" + date[1] + "/" + date[0])
