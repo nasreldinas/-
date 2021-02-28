@@ -1,0 +1,7 @@
+a = 45.0
+if a > 0:
+    print("positive")
+else:
+    print("negative")
+if a == 0:
+    print("equals zeroequals zero")
