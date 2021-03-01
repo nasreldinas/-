@@ -1,0 +1,15 @@
+import random
+
+N = random.randint(1, 10)
+array = [random.randint(1, 100) for i in range(N)]
+print(str(array) + "\n")
+
+n = 1
+
+while n < N:
+    for i in range(N - n):
+        if array[i] > array[i + 1]:
+            array[i], array[i + 1] = array[i + 1], array[i]
+    n = n + 1
+
+print(array)
