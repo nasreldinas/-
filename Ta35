@@ -1,0 +1,16 @@
+import random
+
+M = random.randint(1,5)
+K = random.randint(1,5)
+P = random.randint(5,10)
+N = random.randint(1,15)
+
+arr = [random.randint(1,100) for i in range(N)]
+print("N= " + str(N))
+print("K= " + str(K))
+print("P= " + str(P))
+print("M= " + str(M))
+print(arr)
+
+arr[K : M + K + 1] , arr[P : M+P+1] = arr[P : M+P+1] , arr[K : M+K+1]
+print(arr)
