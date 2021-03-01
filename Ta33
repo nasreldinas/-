@@ -1,0 +1,10 @@
+import random
+N=random.randint(1,20)
+arr = [random.randint(0, 100) for i in range(N)]
+print(arr)
+
+for i in range(N):
+    arr[-i] , arr[-i-1] = arr[-i-1] , arr[-i]
+arr[0] , arr[1] = arr[1] , arr[0]
+
+print(arr)
