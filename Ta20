@@ -1,9 +1,0 @@
-import random
-
-X = random.randint(1, 100)
-A = 0
-B = 20
-if B > X > A:
-    print("Prinadlejit")
-else:
-    print("Ne prinadlejit")
