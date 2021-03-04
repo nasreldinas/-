@@ -1,6 +1,0 @@
-a = 1.0
-b = 1024.0
-kb = (1.0 / 1024.0)
-mb = (1.0 / 1024.0 / 1024.0)
-print("kilobytes-", kb)
-print("megabytes-", mb)
