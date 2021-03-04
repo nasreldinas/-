@@ -1,8 +1,0 @@
-import math
-
-D = 20.0
-A = 12.0
-if D >= A * math.sqrt(2):
-    print("beads can be cut")
-else:
-    print("beads can not be cut")
