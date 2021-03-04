@@ -1,9 +1,0 @@
-a = 5.0
-b = 4.0
-r = 15.0
-k = 2.0
-s = a * b
-if 2 * r + 2 * k < b:
-    print("positive")
-else:
-    print("negative")
